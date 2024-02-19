@@ -1,0 +1,9 @@
+<form class="row g-3" mt-3 mr-3 p-5 action="/answer" method="get" data-turbo="false">
+ <p>Ask a question</p>
+  <div class="col-auto">
+   <input type="text" class="form-control-plaintext" name="ask" value="<%= params[:ask]%>" placeholder="Type a sentence">
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3">Ask</button>
+  </div>
+</form>
